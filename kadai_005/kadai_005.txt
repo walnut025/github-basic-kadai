@@ -1,0 +1,27 @@
+walnu@LAPTOP-C054K89U CLANGARM64 ~
+$ cd C:/TEST2/git_challenge
+
+walnu@LAPTOP-C054K89U CLANGARM64 /c/TEST2/git_challenge
+$ git init
+Initialized empty Git repository in C:/TEST2/git_challenge/.git/
+
+walnu@LAPTOP-C054K89U CLANGARM64 /c/TEST2/git_challenge (main)
+$ git add hello_world
+fatal: pathspec 'hello_world' did not match any files
+
+walnu@LAPTOP-C054K89U CLANGARM64 /c/TEST2/git_challenge (main)
+$ git add hello_world.txt
+
+walnu@LAPTOP-C054K89U CLANGARM64 /c/TEST2/git_challenge (main)
+$ git commit -m "最初のコミット"
+[main (root-commit) 27f4500] 最初のコミット
+ 1 file changed, 3 insertions(+)
+ create mode 100644 hello_world.txt
+
+walnu@LAPTOP-C054K89U CLANGARM64 /c/TEST2/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 09e0f07] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+walnu@LAPTOP-C054K89U CLANGARM64 /c/TEST2/git_challenge (main)
+$ 
